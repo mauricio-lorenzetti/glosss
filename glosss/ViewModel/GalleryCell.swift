@@ -97,6 +97,7 @@ extension GalleryCell {
         playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         photoView.layer.addSublayer(playerLayer)
         player.play()
+        player.volume = 0
     }
 
 }
