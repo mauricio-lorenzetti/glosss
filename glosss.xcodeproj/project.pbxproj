@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2016060E8596A83B833819 /* Pods_glosss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9918A413B9458DEE3E5D8B0 /* Pods_glosss.framework */; };
+		C7431EE825B921900007917C /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431EE725B921900007917C /* GalleryCell.swift */; };
+		C74CA0D425B89319005CA1AE /* GalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74CA0D325B89319005CA1AE /* GalleryCell.xib */; };
+		C778266A25B8E310006D21C0 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778266925B8E310006D21C0 /* GalleryViewModel.swift */; };
+		C778266D25B8E5B0006D21C0 /* ImgurService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778266C25B8E5B0006D21C0 /* ImgurService.swift */; };
+		C778267625B8ED86006D21C0 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778267525B8ED86006D21C0 /* GalleryItem.swift */; };
+		C778267D25B8EE56006D21C0 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778267C25B8EE56006D21C0 /* Image.swift */; };
+		C778268025B8EF83006D21C0 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778267F25B8EF83006D21C0 /* MediaType.swift */; };
+		C778268625B8F072006D21C0 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778268525B8F072006D21C0 /* CustomError.swift */; };
+		C778268925B8F088006D21C0 /* CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778268825B8F088006D21C0 /* CustomTypes.swift */; };
+		C778268C25B8F0EF006D21C0 /* ImgurAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778268B25B8F0EF006D21C0 /* ImgurAPI.swift */; };
+		C77826A025B91EAE006D21C0 /* GalleryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778269F25B91EAE006D21C0 /* GalleryCellViewModel.swift */; };
+		C7B1B51E25B962460089EA5D /* CustomRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B1B51D25B962460089EA5D /* CustomRefreshControl.swift */; };
+		C7CF260325B97342005F6FF1 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF260225B97342005F6FF1 /* UIView+.swift */; };
 		C7D0457225B84203009AED32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0457125B84203009AED32 /* AppDelegate.swift */; };
 		C7D0457425B84203009AED32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0457325B84203009AED32 /* SceneDelegate.swift */; };
-		C7D0457625B84203009AED32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0457525B84203009AED32 /* ViewController.swift */; };
+		C7D0457625B84203009AED32 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0457525B84203009AED32 /* GalleryViewController.swift */; };
 		C7D0457925B84203009AED32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D0457725B84203009AED32 /* Main.storyboard */; };
 		C7D0457B25B84207009AED32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D0457A25B84207009AED32 /* Assets.xcassets */; };
 		C7D0457E25B84207009AED32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D0457C25B84207009AED32 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A307128A3AAE19BCF9DFC79 /* Pods-glosss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glosss.release.xcconfig"; path = "Target Support Files/Pods-glosss/Pods-glosss.release.xcconfig"; sourceTree = "<group>"; };
+		3E2B738CD0EA7887FD1C4509 /* Pods-glosss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glosss.debug.xcconfig"; path = "Target Support Files/Pods-glosss/Pods-glosss.debug.xcconfig"; sourceTree = "<group>"; };
+		C7431EE725B921900007917C /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		C74CA0D325B89319005CA1AE /* GalleryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCell.xib; sourceTree = "<group>"; };
+		C778266925B8E310006D21C0 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		C778266C25B8E5B0006D21C0 /* ImgurService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurService.swift; sourceTree = "<group>"; };
+		C778267525B8ED86006D21C0 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		C778267C25B8EE56006D21C0 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C778267F25B8EF83006D21C0 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		C778268525B8F072006D21C0 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		C778268825B8F088006D21C0 /* CustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTypes.swift; sourceTree = "<group>"; };
+		C778268B25B8F0EF006D21C0 /* ImgurAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurAPI.swift; sourceTree = "<group>"; };
+		C778269F25B91EAE006D21C0 /* GalleryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCellViewModel.swift; sourceTree = "<group>"; };
+		C7B1B51D25B962460089EA5D /* CustomRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRefreshControl.swift; sourceTree = "<group>"; };
+		C7CF260225B97342005F6FF1 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		C7D0456E25B84203009AED32 /* glosss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glosss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D0457125B84203009AED32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D0457325B84203009AED32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7D0457525B84203009AED32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7D0457525B84203009AED32 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		C7D0457825B84203009AED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7D0457A25B84207009AED32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D0457D25B84207009AED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D0457F25B84207009AED32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9918A413B9458DEE3E5D8B0 /* Pods_glosss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_glosss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2016060E8596A83B833819 /* Pods_glosss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5F9FB8E34FD5156A58D89F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9918A413B9458DEE3E5D8B0 /* Pods_glosss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75A12A88C815ACA51550035E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E2B738CD0EA7887FD1C4509 /* Pods-glosss.debug.xcconfig */,
+				2A307128A3AAE19BCF9DFC79 /* Pods-glosss.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C71838C025B8577A0055F7ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0457725B84203009AED32 /* Main.storyboard */,
+				C7D0457C25B84207009AED32 /* LaunchScreen.storyboard */,
+				C74CA0D325B89319005CA1AE /* GalleryCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7431EF225B92F350007917C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C778266C25B8E5B0006D21C0 /* ImgurService.swift */,
+				C778268B25B8F0EF006D21C0 /* ImgurAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C7431EF325B92F400007917C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7431EE725B921900007917C /* GalleryCell.swift */,
+				C778266925B8E310006D21C0 /* GalleryViewModel.swift */,
+				C778269F25B91EAE006D21C0 /* GalleryCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7431EF425B92F4D0007917C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0457125B84203009AED32 /* AppDelegate.swift */,
+				C7D0457325B84203009AED32 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C7431EF625B92F9D0007917C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C778268525B8F072006D21C0 /* CustomError.swift */,
+				C778268825B8F088006D21C0 /* CustomTypes.swift */,
+				C778267F25B8EF83006D21C0 /* MediaType.swift */,
+				C7CF260225B97342005F6FF1 /* UIView+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C7431EF725B92FA30007917C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C778267525B8ED86006D21C0 /* GalleryItem.swift */,
+				C778267C25B8EE56006D21C0 /* Image.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C7D0456525B84203009AED32 = {
 			isa = PBXGroup;
 			children = (
 				C7D0457025B84203009AED32 /* glosss */,
 				C7D0456F25B84203009AED32 /* Products */,
+				75A12A88C815ACA51550035E /* Pods */,
+				6C5F9FB8E34FD5156A58D89F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +164,15 @@
 		C7D0457025B84203009AED32 /* glosss */ = {
 			isa = PBXGroup;
 			children = (
-				C7D0457125B84203009AED32 /* AppDelegate.swift */,
-				C7D0457325B84203009AED32 /* SceneDelegate.swift */,
-				C7D0457525B84203009AED32 /* ViewController.swift */,
-				C7D0457725B84203009AED32 /* Main.storyboard */,
+				C7D0457525B84203009AED32 /* GalleryViewController.swift */,
+				C7B1B51D25B962460089EA5D /* CustomRefreshControl.swift */,
+				C7431EF725B92FA30007917C /* Model */,
+				C7431EF625B92F9D0007917C /* Utils */,
+				C7431EF425B92F4D0007917C /* App */,
+				C7431EF325B92F400007917C /* ViewModel */,
+				C7431EF225B92F350007917C /* Network */,
+				C71838C025B8577A0055F7ED /* Views */,
 				C7D0457A25B84207009AED32 /* Assets.xcassets */,
-				C7D0457C25B84207009AED32 /* LaunchScreen.storyboard */,
 				C7D0457F25B84207009AED32 /* Info.plist */,
 			);
 			path = glosss;
@@ -74,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7D0458225B84207009AED32 /* Build configuration list for PBXNativeTarget "glosss" */;
 			buildPhases = (
+				8CD560044F81B61309C2FD23 /* [CP] Check Pods Manifest.lock */,
 				C7D0456A25B84203009AED32 /* Sources */,
 				C7D0456B25B84203009AED32 /* Frameworks */,
 				C7D0456C25B84203009AED32 /* Resources */,
+				80363439F97C92F038BB0DE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74CA0D425B89319005CA1AE /* GalleryCell.xib in Resources */,
 				C7D0457E25B84207009AED32 /* LaunchScreen.storyboard in Resources */,
 				C7D0457B25B84207009AED32 /* Assets.xcassets in Resources */,
 				C7D0457925B84203009AED32 /* Main.storyboard in Resources */,
@@ -132,14 +246,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80363439F97C92F038BB0DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-glosss/Pods-glosss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-glosss/Pods-glosss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-glosss/Pods-glosss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD560044F81B61309C2FD23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-glosss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7D0456A25B84203009AED32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D0457625B84203009AED32 /* ViewController.swift in Sources */,
+				C778267D25B8EE56006D21C0 /* Image.swift in Sources */,
+				C7D0457625B84203009AED32 /* GalleryViewController.swift in Sources */,
+				C778266A25B8E310006D21C0 /* GalleryViewModel.swift in Sources */,
 				C7D0457225B84203009AED32 /* AppDelegate.swift in Sources */,
+				C7431EE825B921900007917C /* GalleryCell.swift in Sources */,
+				C778268625B8F072006D21C0 /* CustomError.swift in Sources */,
+				C778268025B8EF83006D21C0 /* MediaType.swift in Sources */,
+				C77826A025B91EAE006D21C0 /* GalleryCellViewModel.swift in Sources */,
+				C778266D25B8E5B0006D21C0 /* ImgurService.swift in Sources */,
+				C7CF260325B97342005F6FF1 /* UIView+.swift in Sources */,
 				C7D0457425B84203009AED32 /* SceneDelegate.swift in Sources */,
+				C7B1B51E25B962460089EA5D /* CustomRefreshControl.swift in Sources */,
+				C778267625B8ED86006D21C0 /* GalleryItem.swift in Sources */,
+				C778268925B8F088006D21C0 /* CustomTypes.swift in Sources */,
+				C778268C25B8F0EF006D21C0 /* ImgurAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +451,7 @@
 		};
 		C7D0458325B84207009AED32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2B738CD0EA7887FD1C4509 /* Pods-glosss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +471,7 @@
 		};
 		C7D0458425B84207009AED32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A307128A3AAE19BCF9DFC79 /* Pods-glosss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

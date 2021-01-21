@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FWj-Xi-bPI">
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gallery View Controller-->
+        <scene sceneID="cUd-6K-3hS">
+            <objects>
+                <viewController id="FWj-Xi-bPI" customClass="GalleryViewController" customModule="glosss" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z9c-O5-wvr">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uki-2n-loT">
+                                <rect key="frame" x="44" y="92" width="808" height="322"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.18039215689999999" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Wrs-O6-CBm">
+                                    <size key="itemSize" width="340" height="240"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Wsy-pu-xJC">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="240"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Crj-CT-NBO">
+                                            <rect key="frame" x="0.0" y="0.0" width="340" height="240"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uoA-58-OHy">
+                                        <rect key="frame" x="468" y="0.0" width="340" height="240"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4sc-BK-XLt">
+                                            <rect key="frame" x="0.0" y="0.0" width="340" height="240"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Weekly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFf-M8-o1x">
+                                <rect key="frame" x="60" y="0.0" width="776" height="92"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="Haj-hK-OnK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fad-2j-ESk">
+                                <rect key="frame" x="44" y="92" width="808" height="322"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oh, failed to load galleries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Te-bn-KGm">
+                                        <rect key="frame" x="310" y="220.66666666666669" width="188" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_reload" translatesAutoresizingMaskIntoConstraints="NO" id="mOh-LX-h35">
+                                        <rect key="frame" x="374.66666666666669" y="131.66666666666666" width="59" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="59" id="G9G-nf-Ujl"/>
+                                            <constraint firstAttribute="width" constant="59" id="GYA-cW-b3H"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="6Te-bn-KGm" firstAttribute="centerX" secondItem="Fad-2j-ESk" secondAttribute="centerX" id="E5B-oP-MtU"/>
+                                    <constraint firstItem="mOh-LX-h35" firstAttribute="centerY" secondItem="Fad-2j-ESk" secondAttribute="centerY" id="VJ3-Zj-vyN"/>
+                                    <constraint firstItem="mOh-LX-h35" firstAttribute="bottom" secondItem="6Te-bn-KGm" secondAttribute="bottom" constant="-50" id="hIL-it-F65"/>
+                                    <constraint firstItem="mOh-LX-h35" firstAttribute="centerX" secondItem="Fad-2j-ESk" secondAttribute="centerX" id="jqt-v0-EcO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DoG-nJ-L39"/>
+                        <color key="backgroundColor" red="0.17254901960784313" green="0.1803921568627451" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fad-2j-ESk" firstAttribute="leading" secondItem="DoG-nJ-L39" secondAttribute="leading" id="2cE-f9-9za"/>
+                            <constraint firstItem="Fad-2j-ESk" firstAttribute="bottom" secondItem="uki-2n-loT" secondAttribute="bottom" id="5ZD-5v-XeJ"/>
+                            <constraint firstItem="uki-2n-loT" firstAttribute="top" secondItem="DFf-M8-o1x" secondAttribute="bottom" id="69l-KI-7cC"/>
+                            <constraint firstAttribute="bottom" secondItem="uki-2n-loT" secondAttribute="bottom" id="81L-yA-cQ4"/>
+                            <constraint firstItem="Fad-2j-ESk" firstAttribute="leading" secondItem="uki-2n-loT" secondAttribute="leading" id="A3a-dU-MaP"/>
+                            <constraint firstItem="Fad-2j-ESk" firstAttribute="top" secondItem="DFf-M8-o1x" secondAttribute="bottom" id="IWW-P9-fRF"/>
+                            <constraint firstItem="uki-2n-loT" firstAttribute="leading" secondItem="DoG-nJ-L39" secondAttribute="leading" id="Jqe-sy-WHK"/>
+                            <constraint firstItem="Fad-2j-ESk" firstAttribute="trailing" secondItem="DoG-nJ-L39" secondAttribute="trailing" id="OzU-PE-yPi"/>
+                            <constraint firstItem="DFf-M8-o1x" firstAttribute="centerX" secondItem="uki-2n-loT" secondAttribute="centerX" id="PKF-xM-xhC"/>
+                            <constraint firstItem="uki-2n-loT" firstAttribute="trailing" secondItem="DoG-nJ-L39" secondAttribute="trailing" id="Wrz-rd-LgR"/>
+                            <constraint firstAttribute="bottom" secondItem="Fad-2j-ESk" secondAttribute="bottom" id="acb-2P-XJb"/>
+                            <constraint firstItem="DFf-M8-o1x" firstAttribute="leading" secondItem="z9c-O5-wvr" secondAttribute="leadingMargin" id="han-EP-iYE"/>
+                            <constraint firstItem="DFf-M8-o1x" firstAttribute="centerX" secondItem="Fad-2j-ESk" secondAttribute="centerX" id="nFO-aj-DJ3"/>
+                            <constraint firstItem="DFf-M8-o1x" firstAttribute="top" secondItem="DoG-nJ-L39" secondAttribute="top" id="waG-w2-tbQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="uki-2n-loT" id="mvZ-EE-xIk"/>
+                        <outlet property="emptyView" destination="Fad-2j-ESk" id="Pcd-hK-Bbw"/>
+                        <outlet property="reloadImageView" destination="mOh-LX-h35" id="2wA-ik-yoh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CzO-4O-0zx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623.1884057971015" y="-123.21428571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image_reload" width="39" height="27"/>
+    </resources>
+</document>
